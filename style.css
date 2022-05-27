@@ -38,6 +38,7 @@ body{
     
     
     
+    
 }
 .block{
     position: relative;
@@ -259,10 +260,76 @@ a.knopka {
 
 
 
-@media only screen and (max-width:1200){
+@media only screen and (max-width:1250px){
     .body{
         width:100%;
+
         
     }
+    .blok-shop-fix{
+        display:none;
+    }
+    .menu{
+        width:100%;
+        height:40px;
+        background-color: white;
+    }
+    .button-menu{
+        display:none;
+    }
+    .img-menu{
+        position: absolute;
+        left:90px;
+        top:0px;
+        width: 90px;
+        height: auto;
+    }
+    .content-1{
+        position: absolute;
+        left:0px;
+        top:41px;
+        width:100%;
+        height:auto;
+    }
+
+    .content-2{
+        display: none;
+    }
+    .carousel-control-next {
+        right: 0px;
+    }
+    
+    .carousel-control-prev {
+        left: 0px;
+    }
+
+    .content-3{
+        position:absolute;
+        top:530px;
+        left: 65px;
+        width:100%;
+        height: 1500px;
+        
+        
+    }
+    .card{
+        width:40rem;
+       
+        margin:10px;
+    }
+
+    .content-3{
+        position:absolute;
+        top:500px;
+        left: 65px;
+        width:900px;
+        height: 1500px;
+        float:left;
+        
+    }
+    
+    
+    
+
 
 }
