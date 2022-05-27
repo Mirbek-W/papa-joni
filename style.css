@@ -1,8 +1,44 @@
 body{
     background-color: bisque;
+}  
+
+.menu-s1{
+    position: relative;
+    left:250px;
     
 }
 
+.menu-s{
+    float: left;
+    margin:15px;
+    width:auto;
+    height:33px;
+
+}
+.menu-s:hover{
+    border-bottom:3px solid red;
+}
+
+
+.img-menu-list{
+    width:120px;
+    height:50px;
+    float:left;
+    position: relative;
+    left:20px;
+}
+.meny-list{
+    width:100%;
+    height:50px;
+    background-color:white;
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index:99999999999;
+    display: none;
+    
+    
+}
 .block{
     position: relative;
     top:0px;
@@ -146,7 +182,7 @@ body{
 .fixed-shop{
 
     position:sticky;
-    top:60px;
+    top:120px;
     left:80px;
     width: 260px;
     height: 500px;
@@ -223,4 +259,10 @@ a.knopka {
 
 
 
-@media screen and (max-widht:1200)
+@media only screen and (max-width:1200){
+    .body{
+        width:100%;
+        
+    }
+
+}
