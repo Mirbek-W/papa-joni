@@ -200,3 +200,27 @@ body{
     float: left;
     margin:10px;
 }
+
+
+a.knopka {
+    color: rgb(053,053,053); /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    
+    
+    outline: none; /* убирать контур в Mozilla */
+  } 
+  a.knopka:hover { 
+      color:black;
+     } /* при наведении курсора мышки */
+  a.knopka:active { color: #c21313; } /* при нажатии */
+
+
+.img-shop-box{
+    position: relative;
+    left:60px;
+}
+
+
+
+@media screen and (max-widht:1200)
